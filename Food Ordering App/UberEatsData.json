@@ -1,0 +1,1809 @@
+[
+    {
+        "uuid": "2c9a2c9f-b993-45fa-97c1-d3e89f6668f0",
+        "analyticsLabel": "FEATURED_STORES",
+        "type": "FEATURED_STORES",
+        "payload": {
+            "header": {
+                "title": {
+                    "text": "Stores near you"
+                },
+                "callToAction": {
+                    "text": "See all",
+                    "actionUrl": "/category-feed?verticalType=Shop&stores=all"
+                }
+            },
+            "stores": [
+                {
+                    "storeUuid": "d571ec50-dab9-4eb0-ae3c-5baa73c953af",
+                    "title": "7-Eleven",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/843a5816cbdd0e5df8525788a4657cd6/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/7-eleven-2805-toledo-rd/1XHsUNq5TrCuPFuqc8lTrw?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "d571ec50-dab9-4eb0-ae3c-5baa73c953af",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 1872,
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 40,
+                                    "raw": 30
+                                },
+                                "minRangeDropoffETASec": 1200,
+                                "maxRangeDropoffETASec": 2400,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 4.704225352112677,
+                                "ratingCount": "160+"
+                            },
+                            "promotionUUID": "cfb965c5-4e3c-412b-9482-2a2ae513a8de",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS",
+                            "offerMetadata": {
+                                "analyticsUUID": "b31b76d9-e93f-476b-8284-5bc81344c2a7",
+                                "promotionUUIDs": [
+                                    "cfb965c5-4e3c-412b-9482-2a2ae513a8de",
+                                    "a0beb05a-8832-48ee-904f-fb72b81ca070",
+                                    "4da2fd28-bf9e-47fb-a062-db32db061a4f",
+                                    "467c7e32-3145-41d8-9687-d998985d42da"
+                                ],
+                                "offerTypeCount": 3,
+                                "concatSignpost": "concurrent_offer.signpost.num.of.offers.available"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "20–40 min",
+                            "accessibilityText": "Delivered in 20 to 40 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "9d17bcdf-55d2-5e00-bd7e-9317283d9fb7",
+                    "title": "Meijer",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0fc658201a12b0ccc9b9f8902ae8c71f/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/meijer-4522-elkhart-rd/nRe831XSXgC9fpMXKD2ftw?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "9d17bcdf-55d2-5e00-bd7e-9317283d9fb7",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 1662,
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 40,
+                                    "raw": 30
+                                },
+                                "minRangeDropoffETASec": 1200,
+                                "maxRangeDropoffETASec": 2400,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 4.7242424242424255,
+                                "ratingCount": "120+"
+                            },
+                            "promotionUUID": "00000000-0000-0000-0000-000000000000",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS",
+                            "offerMetadata": {
+                                "analyticsUUID": "da8344a1-5c77-4896-96b4-25c232c779aa",
+                                "promotionUUIDs": [
+                                    "00000000-0000-0000-0000-000000000000"
+                                ],
+                                "concatSignpost": "concurrent_offer.signpost.text.v2"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "20–40 min",
+                            "accessibilityText": "Delivered in 20 to 40 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "420238d7-f515-5a5e-9e13-7b0a43e330a3",
+                    "title": "Martin's",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/d054b719eb33f3d532088d353a75caff/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/martins-3800-mishawaka-rd-east/QgI41_UVWl6eE3sKQ-Mwow?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "420238d7-f515-5a5e-9e13-7b0a43e330a3",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 1648,
+                                "dropoffETARange": {
+                                    "min": 15,
+                                    "max": 35,
+                                    "raw": 25
+                                },
+                                "minRangeDropoffETASec": 900,
+                                "maxRangeDropoffETASec": 2100,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 4.23728813559322,
+                                "ratingCount": "19"
+                            },
+                            "promotionUUID": "00000000-0000-0000-0000-000000000000",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS",
+                            "offerMetadata": {
+                                "analyticsUUID": "a0f8bf29-e5e7-43ca-96c0-59d233622f32",
+                                "promotionUUIDs": [
+                                    "00000000-0000-0000-0000-000000000000"
+                                ],
+                                "concatSignpost": "concurrent_offer.signpost.text.v2"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "15–35 min",
+                            "accessibilityText": "Delivered in 15 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "19f04aa7-dcd9-5662-bad0-c913dec7fd70",
+                    "title": "Chipotle Mexican Grill",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/a0557fed5c9f86c6b3f584ea340e5295/c3ac94fc1809fad838eecc532a15cdbe.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/chipotle-mexican-grill-2225-rieth-blvd/GfBKp9zZVmK60MkT3sf9cA?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "19f04aa7-dcd9-5662-bad0-c913dec7fd70",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 1696,
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                },
+                                "minRangeDropoffETASec": 1200,
+                                "maxRangeDropoffETASec": 2100,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 3.889447236180904,
+                                "ratingCount": "87"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS"
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "3706b230-219c-5740-855e-f8a06afe85de",
+                    "title": "Target",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/0d4046ab7a6b64bfdab6036e4250fe15/e9e11c5f13560a3ff4e36d2afc8d81ea.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/target-goshen/NwayMCGcV0CFXvigav6F3g?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "3706b230-219c-5740-855e-f8a06afe85de",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 1539,
+                                "dropoffETARange": {
+                                    "min": 15,
+                                    "max": 35,
+                                    "raw": 25
+                                },
+                                "minRangeDropoffETASec": 900,
+                                "maxRangeDropoffETASec": 2100,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 4.615384615384615,
+                                "ratingCount": "20"
+                            },
+                            "promotionUUID": "554bdf55-9bb9-46f1-97fd-4228a6905ad0",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS",
+                            "offerMetadata": {
+                                "analyticsUUID": "4e705eda-ec29-4e5d-93ef-657080313f13",
+                                "promotionUUIDs": [
+                                    "554bdf55-9bb9-46f1-97fd-4228a6905ad0"
+                                ],
+                                "offerTypeCount": 1,
+                                "concatSignpost": "promo.restaurant.menu_item_discount"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "15–35 min",
+                            "accessibilityText": "Delivered in 15 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "42e9d9d9-e756-5b24-a680-07c33cdf8d7f",
+                    "title": "Rebel",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/a0c0b12bc740b0edbfc95b2397d125e4/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/rebel-convenience-stores-3200-s-nappanee-st/QunZ2edWWySmgAfDPN-Nfw?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "42e9d9d9-e756-5b24-a680-07c33cdf8d7f",
+                            "isOrderable": true,
+                            "etdInfo": {
+                                "dropoffETASec": 3513,
+                                "dropoffETARange": {
+                                    "min": 50,
+                                    "max": 70,
+                                    "raw": 60
+                                },
+                                "minRangeDropoffETASec": 3000,
+                                "maxRangeDropoffETASec": 4200,
+                                "etdMode": "PREDICTION"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS"
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "50–70 min",
+                            "accessibilityText": "Delivered in 50 to 70 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "00144454-ec5a-58fd-81e9-116ff5ddf9c9",
+                    "title": "Speedway",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/bce25d1bb62bf56b06dfe079dd20f48b/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/speedway-910-west-lincoln-avenue/ABREVOxaWP2B6RFv9d35yQ?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "00144454-ec5a-58fd-81e9-116ff5ddf9c9",
+                            "isOrderable": false,
+                            "promotionUUID": "1fce1b85-b9f7-4393-a37c-0fa69dc6579f",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "NOT_ACCEPTING_ORDERS",
+                            "offerMetadata": {
+                                "analyticsUUID": "e827f052-ad41-4b02-b2ff-c663e0084dac",
+                                "promotionUUIDs": [
+                                    "1fce1b85-b9f7-4393-a37c-0fa69dc6579f",
+                                    "2b8260fa-0afb-4bde-a733-653dcecbe5e7",
+                                    "322c0f85-afff-4ade-9f46-19e5425308fa",
+                                    "18d96913-cc86-4df6-93ef-c42004191fae"
+                                ],
+                                "offerTypeCount": 2,
+                                "concatSignpost": "concurrent_offer.signpost.num.of.offers.available"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "Currently unavailable",
+                            "accessibilityText": "Currently unavailable",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "b7fff562-e718-5a3c-9e35-25f331912947",
+                    "title": "Lowe's",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7baebd7b66c5afd3dbb8679f2b421bf2/c3ac94fc1809fad838eecc532a15cdbe.jpeg"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/lowes-2219-rieth-blvd/t__1YucYWjyeNSXzMZEpRw?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "b7fff562-e718-5a3c-9e35-25f331912947",
+                            "isOrderable": false,
+                            "promotionUUID": "00000000-0000-0000-0000-000000000000",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "STORE_CLOSED",
+                            "offerMetadata": {
+                                "analyticsUUID": "da8344a1-5c77-4896-96b4-25c232c779aa",
+                                "promotionUUIDs": [
+                                    "00000000-0000-0000-0000-000000000000"
+                                ],
+                                "concatSignpost": "concurrent_offer.signpost.text.v2"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "Schedulable",
+                            "accessibilityText": "Available Wednesday 6:00 AM",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "31275795-4b04-55f9-8b94-6472f700e5c0",
+                    "title": "CVS",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/2f58e02be3dcf28ea69f7c8d7653d0dd/cdbf718e74f23061854f430977faed8b.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/cvs-104-west-hively-avenue/MSdXlUsEVfmLlGRy9wDlwA?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "31275795-4b04-55f9-8b94-6472f700e5c0",
+                            "isOrderable": false,
+                            "ratingInfo": {
+                                "storeRatingScore": 4.8,
+                                "ratingCount": "17"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "STORE_CLOSED"
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "Schedulable",
+                            "accessibilityText": "Available Wednesday 8:00 AM",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                },
+                {
+                    "storeUuid": "30c298f3-6754-5899-89da-f98cba642e55",
+                    "title": "GNC",
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/2a7f426456c2dc4a969934836372f849/c3ac94fc1809fad838eecc532a15cdbe.png"
+                            }
+                        ]
+                    },
+                    "actionUrl": "/store/gnc-market-centre/MMKY82dUWJmJ2vmMumQuVQ?diningMode=DELIVERY",
+                    "trackingCode": {
+                        "metaInfo": {
+                            "pluginName": "FeaturedStoresPlugin",
+                            "analyticsLabel": "FEATURED_STORES",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED"
+                        },
+                        "storePayload": {
+                            "storeUUID": "30c298f3-6754-5899-89da-f98cba642e55",
+                            "isOrderable": false,
+                            "promotionUUID": "00000000-0000-0000-0000-000000000000",
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "STORE_CLOSED",
+                            "offerMetadata": {
+                                "analyticsUUID": "da8344a1-5c77-4896-96b4-25c232c779aa",
+                                "promotionUUIDs": [
+                                    "00000000-0000-0000-0000-000000000000"
+                                ],
+                                "concatSignpost": "concurrent_offer.signpost.text.v2"
+                            }
+                        }
+                    },
+                    "meta": [
+                        {
+                            "text": "Schedulable",
+                            "accessibilityText": "Available Wednesday 10:00 AM",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "signposts": null
+                }
+            ],
+            "layout": "UNKNOWN"
+        }
+    },
+    {
+        "uuid": "9756780f-df3a-4331-a51e-2b501147b8fd",
+        "type": "REGULAR_CAROUSEL",
+        "carousel": {
+            "stores": [
+                {
+                    "storeUuid": "7e99e31f-b7a0-498a-9007-58d1b040e27d",
+                    "title": {
+                        "text": "Panera"
+                    },
+                    "meta": [
+                        {
+                            "text": "15–30 min",
+                            "accessibilityText": "Delivered in 15 to 30 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "4.5",
+                        "accessibilityText": "A top rated restaurant with 4.5 out of 5 stars based on more than 150 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/panera-4026-elkhart-rd/fpnjH7egSYqQB1jRsEDifQ",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/c9252e6c6cd289c588c3381bc77b1dfc.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/50446f64f31cbefe66558fc47f50a9d6.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/f3376a06b92224efbe50167fb7cb61e4.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/67b1ce06a25a64dc4a71581bb39c36c6.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/7915c4a78a9f94ed56316c7c4dc0ec89.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/282e4069ca3ec22ec7201bc4a51f0695/e39556ef1e4c4565bc6c7dbd8b90869c.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "MostLovedSMB",
+                            "analyticsLabel": "SMB_MOST_LOVED",
+                            "verticalType": "",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "",
+                            "additionalTrackingData": {
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "7e99e31f-b7a0-498a-9007-58d1b040e27d",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0025817289102077483,
+                                    "HmooScorePreSCR": 0.005163457820415497,
+                                    "PredictionScore": 0.005153457820415497,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0029725730419158936,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.01951843500137329,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 20.813688018536247,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9480781555175781,
+                                    "t120d_eyeball_count": 1805,
+                                    "t120d_request_count": 106
+                                },
+                                "total": 0.0025817289102077483
+                            },
+                            "etdInfo": {
+                                "dropoffETASec": 1601,
+                                "dropoffETARange": {
+                                    "min": 15,
+                                    "max": 30,
+                                    "raw": 25
+                                },
+                                "minRangeDropoffETASec": 900,
+                                "maxRangeDropoffETASec": 1800,
+                                "etdMode": "PREDICTION"
+                            },
+                            "ratingInfo": {
+                                "storeRatingScore": 4.529032258064516,
+                                "ratingCount": "150+"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6206,
+                        "longitude": -85.8994,
+                        "zIndex": 9994,
+                        "description": {
+                            "title": "Panera",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "4.5",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "8e1c44fa-e7e9-43c5-a2aa-e45f03f9293b",
+                    "title": {
+                        "text": "King Gyros of Dunlap"
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "actionUrl": "/store/king-gyros-of-dunlap/jhxE-ufpQ8WiquRfA_kpOw",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/fb86662148be855d931b37d6c1e5fcbe.webp",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/783282f6131ef2258e5bcd87c46aa87e.webp",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/8a42ee7a692dfa4155879820804a277f.webp",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/fdf52d66534809b650058f41d517d74a.webp",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/9b3aae4cf90f897799a5ed357d60e09d.webp",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/094242ef11d48beac1f3c5d0964b6db1/f6deb0afc24fee6f4bd31a35e6bcbd47.webp",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "MostLovedSMB",
+                            "analyticsLabel": "SMB_MOST_LOVED",
+                            "verticalType": "",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "",
+                            "additionalTrackingData": {
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "8e1c44fa-e7e9-43c5-a2aa-e45f03f9293b",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0013022719371318817,
+                                    "HmooScorePreSCR": 0.0026045438742637633,
+                                    "PredictionScore": 0.0025945438742637633,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0013605356216430664,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.012676775455474854,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 25.29680120394461,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9447383880615234,
+                                    "t120d_eyeball_count": 550,
+                                    "t120d_request_count": 14
+                                },
+                                "total": 0.0013022719371318817
+                            },
+                            "etdInfo": {
+                                "dropoffETASec": 1688,
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                },
+                                "minRangeDropoffETASec": 1200,
+                                "maxRangeDropoffETASec": 2100,
+                                "etdMode": "PREDICTION"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6464,
+                        "longitude": -85.934,
+                        "zIndex": 9993,
+                        "description": {
+                            "title": "King Gyros of Dunlap",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "icon": "RESTAURANT",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "72044d18-0447-53ad-b48a-5e7e39c5fdc1",
+                    "title": {
+                        "text": "King Gyros"
+                    },
+                    "meta": [
+                        {
+                            "text": "25–40 min",
+                            "accessibilityText": "Delivered in 25 to 40 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "actionUrl": "/store/king-gyros/cgRNGARHU620il5-OcX9wQ",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/fb86662148be855d931b37d6c1e5fcbe.webp",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/783282f6131ef2258e5bcd87c46aa87e.webp",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/8a42ee7a692dfa4155879820804a277f.webp",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/fdf52d66534809b650058f41d517d74a.webp",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/9b3aae4cf90f897799a5ed357d60e09d.webp",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/ac01d750df771292662c28a2237bdadb/f6deb0afc24fee6f4bd31a35e6bcbd47.webp",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "MostLovedSMB",
+                            "analyticsLabel": "SMB_MOST_LOVED",
+                            "verticalType": "",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "",
+                            "additionalTrackingData": {
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "72044d18-0447-53ad-b48a-5e7e39c5fdc1",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0017585352259874346,
+                                    "HmooScorePreSCR": 0.003517070451974869,
+                                    "PredictionScore": 0.003507070451974869,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0013712942600250244,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.02693590521812439,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 29.26575791923184,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9549314379692078,
+                                    "t120d_eyeball_count": 336,
+                                    "t120d_request_count": 7
+                                },
+                                "total": 0.0017585352259874346
+                            },
+                            "etdInfo": {
+                                "dropoffETASec": 1984,
+                                "dropoffETARange": {
+                                    "min": 25,
+                                    "max": 40,
+                                    "raw": 35
+                                },
+                                "minRangeDropoffETASec": 1500,
+                                "maxRangeDropoffETASec": 2400,
+                                "etdMode": "PREDICTION"
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": true,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.5893,
+                        "longitude": -85.8438,
+                        "zIndex": 9992,
+                        "description": {
+                            "title": "King Gyros",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "icon": "RESTAURANT",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                }
+            ],
+            "header": {
+                "title": {
+                    "text": "Loved by locals"
+                },
+                "callToAction": {
+                    "text": "See all",
+                    "actionUrl": "ubereats://feed-by-id?ctx=%7B%22value%22%3A%22DwABDAAAAAMLAAEAAAAQjhxE-ufpQ8WiquRfA_kpOwsAAgAAABAAAAAAAAAAAAAAAAAAAAAAAAsAAQAAABB-meMft6BJipAHWNGwQOJ9CwACAAAAEK9RjcavSkc1tyoTWJvQaOYACwABAAAAEHIETRgER1OttIpefjnF_cELAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAA%22%2C%22type%22%3A%22c282c472-346c-43d5-9479-ede33030fe84%22%2C%22format%22%3A%22FORMAT_THRIFT_BYTES%22%7D&id=MostLovedMiniStoresSMB&title=Loved%20by%20locals"
+                }
+            }
+        },
+        "analyticsLabel": "SMB_MOST_LOVED"
+    },
+    {
+        "uuid": "db321cb4-2813-52ef-bdcd-b9bb26ceab18",
+        "type": "REGULAR_CAROUSEL",
+        "carousel": {
+            "stores": [
+                {
+                    "storeUuid": "a5c56901-714c-5d68-ad3a-c3718b4d18eb",
+                    "title": {
+                        "text": "It's Just Wings"
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "4.0",
+                        "accessibilityText": "Rated 4.0 out of 5 stars based on 80 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/its-just-wings-4018-elkhart-road/pcVpAXFMXWitOsNxi00Y6w",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+                                "width": 2880,
+                                "height": 2303
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/719c6bd2757b08684c0faae44d43159d.jpeg",
+                                "width": 1080,
+                                "height": 863
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+                                "width": 750,
+                                "height": 599
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+                                "width": 640,
+                                "height": 511
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+                                "width": 550,
+                                "height": 439
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/f812aaf8fb92526356549352b1444be3/97ef7458dde62fa918635bc21265d9f5.jpeg",
+                                "width": 240,
+                                "height": 191
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "a5c56901-714c-5d68-ad3a-c3718b4d18eb",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0008712564605474472,
+                                    "HmooScorePreSCR": 0.0017425129210948945,
+                                    "PredictionScore": 0.0017325129210948944,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0009789764881134033,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.006988316774368286,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 21.070657790038652,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9331245422363281,
+                                    "t120d_eyeball_count": 873,
+                                    "t120d_request_count": 5
+                                },
+                                "total": 0.0008712564605474472
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                }
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6199,
+                        "longitude": -85.8977,
+                        "zIndex": 10000,
+                        "description": {
+                            "title": "It's Just Wings",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "4.0",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "53c2e7c5-083b-4ee8-aa4e-452d7078560f",
+                    "title": {
+                        "text": "Popeyes"
+                    },
+                    "meta": [
+                        {
+                            "text": "30–45 min",
+                            "accessibilityText": "Delivered in 30 to 45 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "4.1",
+                        "accessibilityText": "Rated 4.1 out of 5 stars based on more than 700 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/popeyes-county-hwy-6-%26-cassopolis-st/U8LnxQg7TuiqTkUtcHhWDw",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/30be7d11a3ed6f6183354d1933fbb6c7.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/cc592037c936600295e9961933037e19.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/7835428b286acb57646a256c897c0e9e.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7e0da380a0cad3798b5e281d6b4e7fb6/fa23f51b9c499b035a68831c96e1821e.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": [
+                        {
+                            "backgroundColor": {
+                                "color": "#0E8345"
+                            },
+                            "text": "2 Offers Available",
+                            "textColor": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    ],
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "53c2e7c5-083b-4ee8-aa4e-452d7078560f",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": -0.05980968764008796,
+                                    "HmooScorePreSCR": -0.11961937528017592,
+                                    "PredictionScore": 0.01041763535141945,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.006033122539520264,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.03895100951194763,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": -13.004701063159537,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 30.842134815978643,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.8867276906967163,
+                                    "t120d_eyeball_count": 3830,
+                                    "t120d_request_count": 387
+                                },
+                                "total": -0.05980968764008796
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 30,
+                                    "max": 45,
+                                    "raw": 40
+                                }
+                            },
+                            "promotionUUID": "883997a3-1941-4ec2-98e1-884111221c12",
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN",
+                            "offerMetadata": {
+                                "analyticsUUID": "30f02b0a-c065-4770-8d2c-fe0b43b58201",
+                                "promotionUUIDs": [
+                                    "883997a3-1941-4ec2-98e1-884111221c12",
+                                    "3c9c6834-7a42-4300-8362-582ebf1f0b1b",
+                                    "764041ac-2100-4ef7-a12b-01d041cdfcc3"
+                                ],
+                                "offerTypeCount": 2,
+                                "concatSignpost": "concurrent_offer.signpost.num.of.offers.available"
+                            }
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.7239,
+                        "longitude": -85.9763,
+                        "zIndex": 9999,
+                        "description": {
+                            "title": "Popeyes",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "4.1",
+                            "size": "SPACING_UNIT_4X"
+                        },
+                        "secondaryMarkerContent": {
+                            "color": "CONTENT_POSITIVE",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_POSITIVE",
+                            "icon": "TAG"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null,
+                    "promotionConfiguration": {
+                        "regularPromotionConfiguration": {}
+                    }
+                },
+                {
+                    "storeUuid": "0d85cc13-65b9-513c-b30e-f4cc52c68cf4",
+                    "title": {
+                        "text": "Chili's Grill & Bar"
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "3.9",
+                        "accessibilityText": "Rated 3.9 out of 5 stars based on 78 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/chilis-grill-%26-bar-4018-elkhart-road/DYXME2W5UTyzDvTMUsaM9A",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/30be7d11a3ed6f6183354d1933fbb6c7.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/cc592037c936600295e9961933037e19.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/7835428b286acb57646a256c897c0e9e.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/82ab194a93b232cd82a60c7a54ceaa92/fa23f51b9c499b035a68831c96e1821e.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "0d85cc13-65b9-513c-b30e-f4cc52c68cf4",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0024487531679868698,
+                                    "HmooScorePreSCR": 0.0048975063359737395,
+                                    "PredictionScore": 0.00488750633597374,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.002868950366973877,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.017468124628067017,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 24.7325806896138,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9012343883514404,
+                                    "t120d_eyeball_count": 1478,
+                                    "t120d_request_count": 50
+                                },
+                                "total": 0.0024487531679868698
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                }
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6199,
+                        "longitude": -85.8977,
+                        "zIndex": 9998,
+                        "description": {
+                            "title": "Chili's Grill & Bar",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "3.9",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "f57635d1-99e8-58e3-a030-c0129b4e79ff",
+                    "title": {
+                        "text": "Applebee's"
+                    },
+                    "meta": [
+                        {
+                            "text": "25–40 min",
+                            "accessibilityText": "Delivered in 25 to 40 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "4.2",
+                        "accessibilityText": "Rated 4.2 out of 5 stars based on more than 110 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/applebees-1807-reith-blvd/9XY10ZnoWOOgMMASm055_w",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/30be7d11a3ed6f6183354d1933fbb6c7.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/cc592037c936600295e9961933037e19.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/7835428b286acb57646a256c897c0e9e.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/7171b0e708db110eb45088083566e7d3/fa23f51b9c499b035a68831c96e1821e.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "f57635d1-99e8-58e3-a030-c0129b4e79ff",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.005970277329087257,
+                                    "HmooScorePreSCR": 0.011940554658174514,
+                                    "PredictionScore": 0.011930554658174514,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.007010072469711304,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.042496174573898315,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 33.2245277239039,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9223827123641968,
+                                    "t120d_eyeball_count": 2292,
+                                    "t120d_request_count": 98
+                                },
+                                "total": 0.005970277329087257
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 25,
+                                    "max": 40,
+                                    "raw": 35
+                                }
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6172,
+                        "longitude": -85.893,
+                        "zIndex": 9997,
+                        "description": {
+                            "title": "Applebee's",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "4.2",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "4c7b0aa7-dd24-5233-8516-0062a5ac50c4",
+                    "title": {
+                        "text": "Cosmic Wings"
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "actionUrl": "/store/cosmic-wings-1807-reith-blvd/THsKp90kUjOFFgBipaxQxA",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/719c6bd2757b08684c0faae44d43159d.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/93b5fd796682c6d5302cd5bec164fe90.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/97e6648b3593c29cb4a6335f976e6d84.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/a70f5c9df440d10213e93244e9eb7cad.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/dee023c38e9f478db83e6f8545bc5640/97ef7458dde62fa918635bc21265d9f5.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "4c7b0aa7-dd24-5233-8516-0062a5ac50c4",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0005684170919656754,
+                                    "HmooScorePreSCR": 0.0011368341839313508,
+                                    "PredictionScore": 0.0011268341839313508,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0006063282489776611,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.005182236433029175,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 20.015730803898617,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.9264744520187378,
+                                    "t120d_eyeball_count": 795,
+                                    "t120d_request_count": 0
+                                },
+                                "total": 0.0005684170919656754
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                }
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6172,
+                        "longitude": -85.8932,
+                        "zIndex": 9996,
+                        "description": {
+                            "title": "Cosmic Wings",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "icon": "RESTAURANT",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                },
+                {
+                    "storeUuid": "5ff9168b-493d-572f-af12-b872c7e72604",
+                    "title": {
+                        "text": "Pizza Hut"
+                    },
+                    "meta": [
+                        {
+                            "text": "20–35 min",
+                            "accessibilityText": "Delivered in 20 to 35 min",
+                            "badgeType": "ETD"
+                        }
+                    ],
+                    "rating": {
+                        "text": "4.6",
+                        "accessibilityText": "A top rated restaurant with 4.6 out of 5 stars based on 28 reviews.",
+                        "badgeType": "RATINGS"
+                    },
+                    "actionUrl": "/store/pizza-hut-103-concord-mall-dr/X_kWi0k9Vy-vErhyx-cmBA",
+                    "favorite": false,
+                    "image": {
+                        "items": [
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/30be7d11a3ed6f6183354d1933fbb6c7.jpeg",
+                                "width": 2880,
+                                "height": 2304
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/cc592037c936600295e9961933037e19.jpeg",
+                                "width": 1080,
+                                "height": 864
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/d9be3fc772fc6c0fd6b3471e291aa823.jpeg",
+                                "width": 750,
+                                "height": 600
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/0c09274e3b12c8246a05970e1ef9d835.jpeg",
+                                "width": 640,
+                                "height": 512
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/7835428b286acb57646a256c897c0e9e.jpeg",
+                                "width": 550,
+                                "height": 440
+                            },
+                            {
+                                "url": "https://tb-static.uber.com/prod/image-proc/processed_images/cf85bf26c55dc5c01c4a567952ad5abb/fa23f51b9c499b035a68831c96e1821e.jpeg",
+                                "width": 240,
+                                "height": 192
+                            }
+                        ]
+                    },
+                    "signposts": null,
+                    "tracking": {
+                        "metaInfo": {
+                            "pluginName": "recommendationFeedPlugin",
+                            "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC",
+                            "verticalType": "UNKNOWN",
+                            "category": "",
+                            "subcategory": "",
+                            "surfaceAreaV2": "HOME_FEED",
+                            "additionalTrackingData": {
+                                "entity_carousel_variant": "llm_carousel",
+                                "entity_recommendation_methodology": "feature_tag_gpt4_v0",
+                                "tracingID": "57d576df-af95-4f5f-b529-6f1a6b0e9793"
+                            }
+                        },
+                        "storePayload": {
+                            "storeUUID": "5ff9168b-493d-572f-af12-b872c7e72604",
+                            "isOrderable": true,
+                            "score": {
+                                "breakdown": {
+                                    "ConversionRate_boosting_factor": 1,
+                                    "FinalScore": 0.0037810333865880967,
+                                    "HmooScorePreSCR": 0.007562066773176193,
+                                    "PredictionScore": 0.007552066773176194,
+                                    "StoreCarouselRelevanceFactor": 1,
+                                    "StoreCarouselRelevanceScore": 0.5,
+                                    "conversion_rate_coefficient": 1.32,
+                                    "conversion_rate_partial_score": 0.0036765336990356445,
+                                    "ctr_coefficient": 0.063,
+                                    "ctr_partial_score": 0.042841941118240356,
+                                    "distance_penalty_boosting_factor": 0.01,
+                                    "distance_penalty_partial_score": 0,
+                                    "net_inflow_boosting_factor": 0,
+                                    "net_inflow_partial_score": 30.564893053933996,
+                                    "service_quality_boosting_factor": 0,
+                                    "service_quality_partial_score": 0.912266731262207,
+                                    "t120d_eyeball_count": 485,
+                                    "t120d_request_count": 11
+                                },
+                                "total": 0.0037810333865880967
+                            },
+                            "etdInfo": {
+                                "dropoffETARange": {
+                                    "min": 20,
+                                    "max": 35,
+                                    "raw": 30
+                                }
+                            },
+                            "scheduleTimeSlots": null,
+                            "isDBF": false,
+                            "storeAvailablityState": "UNKNOWN"
+                        }
+                    },
+                    "mapMarker": {
+                        "latitude": 41.6416,
+                        "longitude": -85.9286,
+                        "zIndex": 9995,
+                        "description": {
+                            "title": "Pizza Hut",
+                            "color": "CONTENT_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedColor": "CONTENT_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_PRIMARY"
+                        },
+                        "markerContent": {
+                            "color": "CONTENT_PRIMARY",
+                            "selectedColor": "CONTENT_INVERSE_PRIMARY",
+                            "backgroundColor": "BACKGROUND_PRIMARY",
+                            "selectedBackgroundColor": "BACKGROUND_INVERSE_PRIMARY",
+                            "text": "4.6",
+                            "size": "SPACING_UNIT_4X"
+                        }
+                    },
+                    "meta2": null,
+                    "storyIconPayload": {
+                        "isIconVisible": false
+                    },
+                    "endorsements": null,
+                    "meta4": null
+                }
+            ],
+            "header": {
+                "title": {
+                    "text": "Famous for wings"
+                },
+                "subtitle": {
+                    "text": ""
+                },
+                "callToAction": {
+                    "text": "See all",
+                    "actionUrl": "/search?analyticsLabel=LLM_CAROUSEL_ENTITY_REC&entity=Famous%20for%20wings%7Cllm_carousel&plugin=recommendationFeedPlugin&recommType=entity_recommendation&title=Famous%20for%20wings"
+                }
+            },
+            "carouselProductType": "CAROUSEL_PRODUCT_TYPE_REGULAR"
+        },
+        "analyticsLabel": "LLM_CAROUSEL_ENTITY_REC"
+    }
+]
