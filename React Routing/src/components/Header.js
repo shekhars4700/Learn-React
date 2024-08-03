@@ -11,6 +11,7 @@ const [btnLoginTxt,setBtnLogin] = useState("Login");
             <li>Home</li>
             <li>Profile</li>
             <li>Contact Us</li>
+            <li>About</li>
             <li>Cart</li>
             <li><button className="login-btn" onClick={() => { 
                 btnLoginTxt === "Login" 

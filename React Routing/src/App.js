@@ -2,10 +2,11 @@ import React from "react";
 import  ReactDom from "react-dom"
 import Header from "./components/Header.js"
 import Body from "./components/Body.js"
+import Contact from "./components/Contact.js";
+import About from "./components/About.js";
+import Error from "./components/Error.js";
 
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
-import About from "./components/About.js";
-
 
 const MainApp = () => {
     return (
@@ -19,11 +20,17 @@ const MainApp = () => {
 const appRouter = createBrowserRouter([
     {
         path:"/",
-        element: <MainApp/>
+        element: <MainApp/>,
+        errorElement: <Error/>
 
-    },{
+    },
+    {
         path:"/About",
         element: <About/>
+    },
+    {
+        path:"/Contact",
+        element: <Contact/>
     }
 ]);
 
