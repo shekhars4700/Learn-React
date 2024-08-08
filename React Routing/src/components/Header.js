@@ -1,17 +1,20 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
+import Contact from "./Contact";
+
 const Header = () => {
 
 const [btnLoginTxt,setBtnLogin] = useState("Login");
     return (
     <div className="header">
-        <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq6FvMgTV6lXSizDbBkn9L3cLoxjdvK8O9EOVIxg7O129OafrA-qkm-8bzxwge-vUcXvg&usqp=CAU">
+        <img className="logo" src="https://about.grubhub.com/wp-content/uploads/2022/03/JET_Grubhub_logo_horizontal-_sRGB-R-Orange.png">
         </img>
         <div className="nav-bar">
         <ul >
-            <li>Home</li>
+            <li><Link to="/">Home</Link></li>
             <li>Profile</li>
-            <li>Contact Us</li>
-            <li>About</li>
+            <li> <Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li>Cart</li>
             <li><button className="login-btn" onClick={() => { 
                 btnLoginTxt === "Login" 
