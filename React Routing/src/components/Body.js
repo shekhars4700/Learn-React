@@ -12,7 +12,6 @@ const Body = () =>{
  useEffect(()=> {swiggyData()},[])  
   const swiggyData = async () => {
     const data = await fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING") 
-    //fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json()
     const swiggyData = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants; 
     setResDataList(swiggyData);
