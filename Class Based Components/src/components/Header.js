@@ -12,7 +12,7 @@ const [btnLoginTxt,setBtnLogin] = useState("Login");
         <div className="nav-bar">
         <ul >
             <li><Link to="/">Home</Link></li>
-            <li>Profile</li>
+            <li> <Link to="/Profile">Profile</Link></li>
             <li> <Link to="/contact">Contact Us</Link></li>
             <li><Link to="/about">About</Link></li>
             <li>Cart</li>
