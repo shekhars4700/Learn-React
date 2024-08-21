@@ -1,13 +1,13 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import  ReactDom from "react-dom"
 import Header from "./components/Header.js"
 import Body from "./components/Body.js"
 import Contact from "./components/Contact.js";
-import About from "./components/About.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/RestaurentMenuCard.js";
 import {createBrowserRouter,Outlet,RouterProvider} from "react-router-dom"
 import Profile from "./components/Profile.js";
+import Shimmer from "./components/Shimmer.js";
 
 const MainApp = () => {
     return (
@@ -17,6 +17,9 @@ const MainApp = () => {
     </div>
     )
 };
+const About = lazy(()=> import("./components/About.js"))
+
+
 
 const appRouter = createBrowserRouter([
     {
@@ -30,7 +33,11 @@ const appRouter = createBrowserRouter([
             },
             {
                 path:"/About",
-                element: <About/>
+                element: (
+                    <Suspense fallback={<Shimmer/>}>
+                        <About/>
+                    </Suspense>
+                )
             },
             {
                 path:"/Profile",
