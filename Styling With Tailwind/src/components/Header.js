@@ -6,16 +6,16 @@ const Header = () => {
 
 const [btnLoginTxt,setBtnLogin] = useState("Login");
     return (
-    <div className="header">
-        <img className="logo" src="https://about.grubhub.com/wp-content/uploads/2022/03/JET_Grubhub_logo_horizontal-_sRGB-R-Orange.png">
+    <div className="flex  justify-between">
+        <img className="w-56 h-20" src="https://about.grubhub.com/wp-content/uploads/2022/03/JET_Grubhub_logo_horizontal-_sRGB-R-Orange.png">
         </img>
         <div className="nav-bar">
-        <ul >
-            <li><Link to="/">Home</Link></li>
-            <li> <Link to="/Profile">Profile</Link></li>
-            <li> <Link to="/contact">Contact Us</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li>Cart</li>
+        <ul className="flex ml-4 p-10" >
+            <li className="ml-4"><Link to="/">Home</Link></li>
+            <li className="ml-4"> <Link to="/Profile">Profile</Link></li>
+            <li className="ml-4"> <Link to="/contact">Contact Us</Link></li>
+            <li className="ml-4"><Link to="/about">About</Link></li> 
+            <li className="ml-4">Cart</li>
             <li><button className="login-btn" onClick={() => { 
                 btnLoginTxt === "Login" 
                 ? setBtnLogin("Logout")
