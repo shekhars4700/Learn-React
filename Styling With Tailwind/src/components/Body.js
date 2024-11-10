@@ -17,10 +17,7 @@ const Body = () =>{
     setResDataList(swiggyData);
     setFilteredResDataList(swiggyData);
   }
-
-
   const isOnline = useOnlineStatus();
-  
 
   if(!isOnline){
     return (
@@ -31,7 +28,6 @@ const Body = () =>{
     ); 
   }
 
-
   if(filteredResDataList.length === 0){
     return <Shimmer/>
   }
@@ -39,7 +35,7 @@ const Body = () =>{
   return(
         <div className="body">
             <div className="body-filter">
-            <div className="filter-rst-btn"> 
+            <div className="filter-rst-btn">  
                 <button className="filter-btn" 
                 onClick={()=>{ swiggyData()}}
                 >Reset</button>    
