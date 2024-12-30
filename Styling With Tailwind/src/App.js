@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import  ReactDom from "react-dom"
+import { createRoot } from 'react-dom/client';
 import Header from "./components/Header.js"
 import Body from "./components/Body.js"
 import Contact from "./components/Contact.js";
@@ -9,7 +9,7 @@ import {createBrowserRouter,Outlet,RouterProvider} from "react-router-dom"
 import Profile from "./components/Profile.js";
 import Shimmer from "./components/Shimmer.js";
 
-const MainApp = () => {
+const MainApp = () => { 
     return (
         <div>
     <Header/>
@@ -18,7 +18,7 @@ const MainApp = () => {
     )
 };
 const About = lazy(()=> import("./components/About.js"))
-
+ 
 
 
 const appRouter = createBrowserRouter([
@@ -56,5 +56,5 @@ const appRouter = createBrowserRouter([
     
 ]);
 
-const root = ReactDom.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter}/>);

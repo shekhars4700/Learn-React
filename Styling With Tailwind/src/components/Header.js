@@ -16,7 +16,7 @@ const [btnLoginTxt,setBtnLogin] = useState("Login");
             <li className="ml-4"> <Link to="/contact">Contact Us</Link></li>
             <li className="ml-4"><Link to="/about">About</Link></li> 
             <li className="ml-4">Cart</li>
-            <li><button className="login-btn" onClick={() => { 
+            <li><button className="ml-4" onClick={() => { 
                 btnLoginTxt === "Login" 
                 ? setBtnLogin("Logout")
                 : setBtnLogin('Login') 

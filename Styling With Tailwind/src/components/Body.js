@@ -34,24 +34,19 @@ const Body = () =>{
 
   return(
         <div className="body">
-            <div className="body-filter">
-            <div className="filter-rst-btn">  
-                <button className="filter-btn" 
-                onClick={()=>{ swiggyData()}}
-                >Reset</button>    
-             </div>
-             <div className="filter-search-txt">
-                <input type="text" className="search-txt" value={searchText} onChange={(e)=>setSearchText(e.target.value)}/>
-                <button className="search-btn" onClick={ ()=>{setFilteredResDataList(resDataList.filter(x=> x.info.name.toLowerCase().includes(searchText.toLowerCase())))}}>Search</button>
+            <div className="flex body-filter">
+             <div className="search m-4 px-3 ">
+                <input type="text" className="border border-black border-solid" value={searchText} onChange={(e)=>setSearchText(e.target.value)}/>
+                <button className="px-3 m-2 bg-green-300 rounded-lg" onClick={ ()=>{setFilteredResDataList(resDataList.filter(x=> x.info.name.toLowerCase().includes(searchText.toLowerCase())))}}>Search</button>
              </div>
 
-            <div className="filter-top-btn"> 
-                <button className="filter-btn" 
+                <div className="m-4 px-3 flex items-center" >
+                <button className="px-3 m-2 bg-gray-400 rounded-lg" 
                 onClick={()=>{ setResDataList(filteredResDataList.filter(x=> x.info.avgRating > 4.2));}}
                 >Top Rated Restaurant</button>    
+                </div>
              </div>
-             </div>
-                <div className="res-container">
+                <div className="flex flex-wrap">
                 {
                     filteredResDataList.map(res => <Link key={res.info.id} to={"/RestaurentMenu/" + res.info.id} ><RestaurantCard resData = {res.info}/> </Link> )
                 }    
